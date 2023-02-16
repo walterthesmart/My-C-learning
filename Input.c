@@ -9,11 +9,12 @@ int main(void)
 	char name[100];
 
 	printf("Enter a name\n");
-	scanf("%s", name);
+	fgets(name, 100, stdin);
 	printf("Your name is %s", name);
+	puts(name);
+	puts("My name is right\n");
+
 	
-
-
 		
 
 
