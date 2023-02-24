@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-void numberSquare(int number)
+void numberAdd(int number1, int number2)
 {
-	int calculateSquare = number * number;	
-	printf("The square of %d is %d", number, calculateSquare);
+	int calculateAdd = number1 + number2;
+	printf("THe sum of %d and %d is %d\n", number1, number2, calculateAdd);
 }
+
 int main(void)
 {
-	printf("Enter the number: ");
-	scanf("%d", &number);
-	numberSquare();
-	return (0);
+	numberAdd(9, 20);
+
+	return(0);
 }

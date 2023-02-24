@@ -5,14 +5,14 @@
  * sqrt() calcs the square root of a number which is defined in the math.h header file.
  *User function..functions the user creates
  */
-void greeting()
+void greeting()  /* Function Definition*/
 {
 	printf("Hello my friend\n");
 }
 
 int main(void)
 {
-	greeting();
+	greeting();  /*Calling a function*/
 	greeting();
 	greeting();
 	printf("ALl functions are done running");
